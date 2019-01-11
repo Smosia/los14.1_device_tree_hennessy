@@ -53,7 +53,7 @@ PRODUCT_PACKAGES += \
     libion
 
 # Doze
-PRODUCT_PACKAGES += XiaomiDoze
+#PRODUCT_PACKAGES += XiaomiDoze
 
 # GPS
 PRODUCT_PACKAGES += libcurl
