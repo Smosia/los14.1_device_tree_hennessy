@@ -1980,7 +1980,7 @@ index dd72c16..c92b7e9 100644
 +{
 +    //for debug dump
 +    int i=0;
-+    ALOGD("there are %d profiles", mCamcorderProfiles.size());
++    ALOGD("there are %d profiles", (int)mCamcorderProfiles.size());
 +    for (i=0; i<(int)mCamcorderProfiles.size(); ++i)
 +    {
 +        CamcorderProfile *tmpC = mCamcorderProfiles[i];
